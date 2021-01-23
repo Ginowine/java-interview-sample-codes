@@ -8,11 +8,11 @@ public class RemoveDuplicatesFromArrayList {
         // ArrayList with duplicate elements
         ArrayList<Integer> numbersList = new ArrayList<>(Arrays.asList(1, 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8));
 
-        System.out.println("ArrayList with duplicate elements: ", numbersList);
+        System.out.println("ArrayList with duplicate elements: " + numbersList);
 
         LinkedHashSet<Integer> hashSet = new LinkedHashSet<>(numbersList);
         ArrayList<Integer> listWithoutDuplicates = new ArrayList<>(hashSet);
 
-        System.out.println("ArrayList without duplicate elements: ", listWithoutDuplicates);
+        System.out.println("ArrayList without duplicate elements: " + listWithoutDuplicates);
     }
 }
