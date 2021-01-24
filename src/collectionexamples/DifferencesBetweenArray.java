@@ -1,3 +1,5 @@
+package collectionexamples;
+
 import java.util.ArrayList;
 
 public class DifferencesBetweenArray {

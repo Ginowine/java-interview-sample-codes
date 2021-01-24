@@ -1,3 +1,5 @@
+package collectionexamples;
+
 import java.util.HashMap;
 import java.util.Map;
 
