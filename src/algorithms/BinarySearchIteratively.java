@@ -22,12 +22,12 @@ public class BinarySearchIteratively {
 
     public static void main(String[] args){
         int[] sortedArrays = {2, 4, 6, 7, 8, 9};
-        int low = 2;
-        int high = 9;
-        int key = 6;
+        int low = 0;
+        int high = sortedArrays.length - 1;
+        int key = 8;
 
         int result = binarySear(sortedArrays, low, high, key);
 
-        System.out.println(result);
+        System.out.println("the index of the searched key is: " + result);
     }
 }
