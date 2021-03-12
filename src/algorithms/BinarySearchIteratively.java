@@ -4,7 +4,6 @@ public class BinarySearchIteratively {
 
     public static int binarySear( int[] sortedArray, int low, int high, int key){
         int index = Integer.MAX_VALUE;
-
         while (low <= high){
             int mid = (low + high)/ 2;
             if (sortedArray[mid] < key){
@@ -29,5 +28,11 @@ public class BinarySearchIteratively {
         int result = binarySear(sortedArrays, low, high, key);
 
         System.out.println("the index of the searched key is: " + result);
+
+
+        //This is a simple way to do binary search
+        //int index = Arrays.binarySearch(sortedArrays, key);
+
+        //int index = Collections.binarySearch(sortedList, key);
     }
 }
