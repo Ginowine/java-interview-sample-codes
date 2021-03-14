@@ -3,7 +3,7 @@ package algorithms;
 public class SelectionSortingArray {
 
     void selectionSort(int[] arr){
-        // create the length of the array
+        // get the length of the array
         int len = arr.length;
 
         for (int i = 0; i < len - 1; i++){
@@ -15,11 +15,12 @@ public class SelectionSortingArray {
                 if (arr[j] < arr[min]){
                     min = j;
                 }
-                /* Swapping the found minimum element with the first
+            }
+
+            /* Swapping the found minimum element with the first
              * element of the sorted subarray using temp variable
              *
-                */
-            }
+             */
 
             int temp = arr[min];
             arr[min] = arr[i];
