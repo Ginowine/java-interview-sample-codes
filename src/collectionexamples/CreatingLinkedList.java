@@ -12,6 +12,12 @@ public class CreatingLinkedList {
         cars.add("Toyota");
         cars.add("BUGATTI");
 
-        System.out.println(cars);
+//        for (String str : cars){
+//            System.out.println(str);
+//        }
+
+        for (int i = 0; i < cars.size(); i++){
+            System.out.println(cars.get(i));
+        }
     }
 }

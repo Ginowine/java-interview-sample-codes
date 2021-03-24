@@ -21,6 +21,10 @@ public class HashMapExampleA {
         map.put("Code", "HashMap");
         map.put("Learn", "More");
 
+        for (String str : map.keySet()){
+            System.out.println("key " + str + " value " + map.get(str));
+        }
+
         // containsKey() method is to check the presence of a particular key
         if (map.containsKey("Code"))
             System.out.println("Testing .containsKey : " + map.get("Code"));
